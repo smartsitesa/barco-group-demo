@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://barcogroup.co.za/sitemap.xml
