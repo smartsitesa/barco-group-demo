@@ -1,24 +1,33 @@
 window.SmartSiteBotConfig = {
   businessName: 'Barco Group',
   title: 'Barco Group',
-  subtitle: 'Corporate enquiry assistant',
-  botTitle: 'Group Bot',
-  botSubtitle: 'Brand and division routing',
+  subtitle: 'Facilities enquiry assistant',
+  botTitle: 'Barco Group Assistant',
+  botSubtitle: 'Maintenance and portfolio support',
   whatsappNumber: '',
-  genericMessage: 'Hi Barco Group, I would like to enquire about the group website or one of the divisions.',
-  fallback: 'I am not fully sure about that yet. Would you like to route the enquiry to the right Barco division?',
+  genericMessage: 'Hi Barco Group, I would like to enquire about facilities management or property maintenance support.',
+  fallback: 'I am not fully sure about that yet. Would you like to send a facilities enquiry to the Barco team?',
   emailSubject: 'Barco Group enquiry',
   languages: {
     en: {
-      label: 'EN', introMessage: 'Hello 👋 I can help explain the new Barco Group structure, divisions, Barco Assist routing and website launch next steps.', fallback: 'I am not fully sure about that yet. Would you like to route the enquiry to the right division?', inputPlaceholder: 'Ask about Barco Group...', sendLabel: 'Send', backLabel: 'Back to menu', agentLabel: 'Speak to someone', agentPrompt: 'No problem — I can prepare a group enquiry message.', whatsappLabel: 'Prepare enquiry', quickReplies: ['What is Barco Group?', 'Barco Assist', 'Divisions', 'Website launch', 'Contact']
+      label: 'EN',
+      introMessage: 'Hello 👋 I can help with Barco Group, Barco Assist, maintenance services, client sectors and quote enquiries.',
+      fallback: 'I am not fully sure about that yet. Would you like to route your enquiry to the Barco team?',
+      inputPlaceholder: 'Ask about Barco Group...',
+      sendLabel: 'Send',
+      backLabel: 'Back to menu',
+      agentLabel: 'Speak to someone',
+      agentPrompt: 'No problem — I can prepare a facilities enquiry message.',
+      whatsappLabel: 'Prepare enquiry',
+      quickReplies: ['What does Barco do?', 'Maintenance services', 'Client sectors', 'COC services', 'Contact']
     }
   },
   parameters: [
-    { keywords: ['group','barco group','holding','parent'], reply: { en: 'Barco Group is positioned as the premium parent brand for the Barco divisions: a corporate home for credibility, governance, client trust and division routing.' } },
-    { keywords: ['assist','barco assist','maintenance','repairs','service'], reply: { en: 'Barco Assist should become the focused service website for maintenance, repairs, property support, inspections and facilities assistance.' } },
-    { keywords: ['division','divisions','companies','brands'], reply: { en: 'The group structure can separate corporate trust from service conversion: Barco Group for credibility, Barco Assist for maintenance leads, plus future project/facilities divisions.' } },
-    { keywords: ['launch','domain','barcogroup','website'], reply: { en: 'The demo is structured for barcogroup.co.za with Cloudflare-ready security headers, privacy page and clear conversion sections.' } },
-    { keywords: ['contact','enquiry','quote'], reply: { en: 'For the production version, we should confirm final phone numbers, WhatsApp routing, email addresses, logo files and approved division names before launch.' } }
+    { keywords: ['what','group','barco group','who'], reply: { en: 'Barco Group is the home of Barco Assist, a facilities management and property maintenance division focused on asset longevity, operational efficiency and real-time reporting.' } },
+    { keywords: ['assist','barco assist','maintenance','repairs','service','services'], reply: { en: 'Barco Assist provides commercial maintenance, retail maintenance, student accommodation maintenance, holistic building maintenance and full Certificate of Compliance support.' } },
+    { keywords: ['sector','sectors','clients','portfolio','facility manager','landlord','body corporate','retail'], reply: { en: 'Barco works with facility managers, retail portfolios, private landlords and body corporates across commercial, retail and residential property environments.' } },
+    { keywords: ['coc','certificate','compliance'], reply: { en: 'Barco Assist lists full Certificate of Compliance services as one of its core focus areas, supporting property stakeholders with compliance-led maintenance needs.' } },
+    { keywords: ['contact','quote','address','office','enquiry'], reply: { en: 'The public office address is 66A Section St, Paarden Eiland, Cape Town, 7405. You can request a maintenance quote through the contact section.' } }
   ],
   sitePages: [
     { title: 'Homepage', href: 'index.html' },
