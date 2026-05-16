@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="720" viewBox="0 0 2400 720" role="img" aria-labelledby="title desc">
+  <title id="title">Barco Group transparent logo</title>
+  <desc id="desc">Transparent Barco Group logo in the same visual family as Barco Assist, with chevron badge and clear group wordmark.</desc>
+  <defs>
+    <linearGradient id="teal" x1="245" y1="240" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#40DCCD"/>
+      <stop offset="1" stop-color="#1595A6"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="120" y="225" width="610" height="270" rx="48" fill="#FFFFFF"/>
+    <g transform="translate(225 270)">
+      <path d="M0 90 88 0h92L92 90l88 90H88L0 90Z" fill="#121A22"/>
+      <path d="M112 90 200 0h92l-88 90 88 90h-92L112 90Z" fill="url(#teal)"/>
+      <path d="M224 90 312 0h92l-88 90 88 90h-92L224 90Z" fill="#40DCCD"/>
+    </g>
+  </g>
+  <g transform="translate(820 246)">
+    <text x="0" y="96" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="900" letter-spacing="3" fill="#121A22">BARCO GROUP</text>
+    <text x="4" y="176" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="500" letter-spacing="1.6" fill="#626C73">Facilities · Maintenance · Asset Care</text>
+  </g>
+</svg>
